@@ -1,0 +1,149 @@
+body{
+	background-color: #2A2C31;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+a:hover, a:active{
+	text-decoration:none;
+}
+
+form{
+	padding: 10px;
+}
+
+.container{
+	height:100%;
+
+}
+
+
+.main-row{
+	position:relative;
+	height:100%;
+}
+
+.right-side-container{
+	height:100%;
+}
+
+.top-spacer{
+	height:40px;
+	border-bottom:1px solid white;
+}
+#input-title, #input-artist{
+	font-size: 16px;
+}
+
+#top-bar{
+	height:40px;
+	background-color: #5A2E2E;
+}
+
+#new-entry{
+	background-color:#DBDBDB;
+	height: 100%;
+}
+
+#artists-container{
+	background-color: #FFFEDF;
+	font-size: 18px;
+	height: 100%;
+	overflow-y: auto;
+	text-transform:capitalize;
+	padding:0;
+}
+
+.artist{
+	padding:10px;
+}
+
+#songs-container{
+	background-color: #ECF1EF;
+	font-size: 18px;
+	height: 100%;
+	overflow-y: auto;
+	text-transform:capitalize;
+}
+
+#tab-link-label{
+	margin-left: 12px;
+}
+
+#title-label, #artist-label{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 21px;
+}
+
+#get-tab{
+	margin-left: 25px;
+}
+
+.song-button{
+	cursor: pointer;
+    text-align: center;
+	white-space: nowrap;
+    text-align: center;
+}
+
+.spacer{
+
+}
+
+.song-button img{
+	vertical-align: middle;
+	width: 20px;
+}
+
+.artist{
+	cursor: pointer;
+}
+
+.helper{
+    display: inline-block;
+	height: 20px;
+    vertical-align: middle;
+}
+
+.title-row, .artist{
+	padding: 10px;
+}
+
+#input-url{
+}
+
+.video-toprow{
+	height:30px;
+}
+
+.external-link{
+	padding: 5px;
+	margin-bottom:5px;
+	width: 30px;
+	cursor: pointer;
+}
+
+.video-box{
+}
+
+#video-tray{
+	background-color: black;
+	border-top:1px solid white;
+}
+
+#video-hide-button{
+	width:150px;
+	height:30px;
+	background-color:black;
+	position:absolute;
+	left:20px;
+	bottom:0;
+	color:white;
+	vertical-align: middle;
+	float:left;
+	padding:5px;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;
+	display: none;
+}
